@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54f3049c-0f3e-4b8d-971a-c7c84b260f67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/justpractice/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/justpractice/Cerc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/justpractice/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/justpractice/Execution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/methodstask/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/methodstask/DataGeneratorUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/methodstask/ExecutionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/zooclubservice/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/zooclubservice/Animalnterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/zooclubservice/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/zooclubservice/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/zooclubservice/Execution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/zooclubservice/ZooService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md/tekwill/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md/tekwill/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,13 +47,26 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExecutionService">
+  <component name="RunManager" selected="Application.ZooService">
     <configuration name="AssignmentOperationsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="md.tekwill.operationsandciclicfunctions.AssignmentOperationsExample" />
       <module name="JavaLearningProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="md.tekwill.operationsandciclicfunctions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Execution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="md.tekwill.zooclubservice.Execution" />
+      <module name="JavaLearningProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="md.tekwill.zooclubservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,19 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeSystemService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="md.tekwill.operationsandciclicfunctions.GradeSystemService" />
-      <module name="JavaLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="md.tekwill.operationsandciclicfunctions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="md.tekwill.Main" />
       <module name="JavaLearningProject" />
@@ -102,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManageAutoService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="md.tekwill.classesandobjects.ManageAutoService" />
+    <configuration name="ZooService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="md.tekwill.zooclubservice.ZooService" />
       <module name="JavaLearningProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="md.tekwill.classesandobjects.*" />
+          <option name="PATTERN" value="md.tekwill.zooclubservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZooService" />
+        <item itemvalue="Application.Execution" />
         <item itemvalue="Application.ExecutionService" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AssignmentOperationsExample" />
-        <item itemvalue="Application.ManageAutoService" />
-        <item itemvalue="Application.GradeSystemService" />
       </list>
     </recent_temporary>
   </component>
